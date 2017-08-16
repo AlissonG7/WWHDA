@@ -1,0 +1,1251 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--
+   Mod created in 08/08/2017 by (Mod criado em 08/08/2017 por) @TheG7 e @CarolParreira
+    Official Telegram Group (Grupo Oficial Telegram): @Werelobo
+    Official Support Group (Grupo oficial de Suporte): @WerewolfZionSuporte
+    GitHub for issues or suggestions: https://github.com/AlissonG7/WWHDA
+-->
+
+<strings>
+  <language name="Brazilian (Hora de Aventura)" base="Português" variant="Hora de Aventura"/>
+   <string key="PlayerStartedGame" isgif="true">
+    <value>Lich se libertou! {0} chama todos os habitantes de Ooo para se unirem contra essa ameaça. Use /join para vir também!</value>
+    <value>QUE HORAS SÃO? {0}, Finn e Jake estão procurando por Lich. Use /join para ajudá-los!</value>
+  </string>
+  <string key="PlayerStartedChaosGame" isgif="true">
+    <value>Quem que jogar... VIDEO GAME?!! {0} já iniciou um novo jogo, entre com /join!</value>
+    <value>"INACEITÁVEL!" Conde Limãograb exige sua presença! {0} já compareceu! Use /join antes que ele tenha outro surto.</value>
+  </string>
+      <string key="MinuteLeftToJoin">
+    <value>1 minuto restando para enviar o /join</value>
+  </string>
+  <string key="SecondsLeftToJoin">
+    <value>{0} segundos restando para enviar o /join</value>
+  </string>
+  <string key="NotEnoughPlayers">
+    <value>Quantidade mínima de aventureiros não foi atingida! </value>
+  </string>
+  <string key="StartingGameWait">
+    <value>A aventura vai começar! Aguarde enquanto eu distribuo as missões de cada um.</value>
+  </string>
+    <string key="ChangeNameToJoin">
+    <value>{0}, por favor, mude seu nome para ser um aventureiro.</value>
+  </string>
+  <string key="PlayerLimitReached">
+    <value>Sinto muito, o número máximo de jogadores foi atingido!</value>  
+  </string>
+  <string key="PlayerJoined">
+    <value>{0} está pronto para a Aventura. {1} Aventureiros, {2} mín., {3} máx.</value>
+  </string>
+  <string key="PMTheBot">
+    <value>\n{0} para que eu possa te enviar mensagens privadas, você deve me enviar uma mensagem primeiro. Vá em {1} e clique start.</value>
+  </string>
+  <string key="DeadFlee">
+    <value>Você não pode fugir! VOCÊ ESTÁ MORTO(A)! Volte para sua cova.... Seu zumbi</value>
+  </string>
+  <string key="Flee">
+    <value>{0} foi brigar com o Gato Cientista.</value>
+  </string>
+  <string key="PlayerRoleWas">
+    <value>{0} era {1}</value>
+  </string>
+  <string key="CountPlayersRemain">
+    <value>{0} restantes.</value>
+  </string>
+  <string key="NotPlaying">
+    <value>Você não parece estar jogando...</value>
+  </string>
+  <string key="NoPlayerName">
+    <value>Eu não consegui encontrar um(a) jogador(a) com esse nome!</value>
+  </string>
+  <string key="WolfVotedKill">
+    <value>{0} prefere atacar {1}</value>
+  </string>
+  <string key="PlayerVotedLynch">
+    <value>{0} atacou {1}</value>
+    <value>{0} chutou {1}</value>
+    <value>{0} golpeou {1}</value>
+  </string>
+  <string key="IdleKill">
+    <value>{0} fugiu da luta por 2 vezes seguidas e foi aniquilado pelo Lich! {0} está morto, {1}</value>
+  </string>
+  <string key="TraitorTurnWolf">
+    <value>Segundos antes de morrer Lich te escolhe. agora você está Possuído pela alma do Lich!</value>
+  </string>
+  <string key="ChoiceAccepted">
+    <value>Opção aceita</value>
+  </string>
+  <string key="BeholderSeer">
+    <value>\nO Rei Gelado é {0}</value>
+  </string>
+  <string key="ApprenticeNowSeer">
+    <value>{0} era o Rei Gelado e foi morto mas você chega bem na hora e coloca a coroa. Simon, você é o Rei Gelado novamente!</value>
+  </string>
+  <string key="BeholderNewSeer">
+    <value>{0} é Simon Petrikov que veio do passado e tomou o lugar de {1} como o Rei Gelado.</value>
+  </string>
+  <string key="SeerSees">
+    <value>Você viu no sonho que {0} é {1}!</value>
+  </string>
+  <string key="AskLynch">
+    <value>Quem você gostaria de atacar?</value>
+  </string>
+  <string key="AskDetect">
+    <value>Quem você gostaria de investigar?</value>
+  </string>
+  <string key="AskShoot">
+    <value>Quem você gostaria de queimar?? {0} tentativa(s) restante(s)</value>
+  </string>
+  <string key="AskVisit">
+    <value>Quem você gostaria de flertar?</value>
+  </string>
+  <string key="AskSee">
+    <value>Com quem você deseja sonhar?</value>
+  </string>
+  <string key="AskGuard">
+    <value>Quem você gostaria de proteger?</value>
+  </string>
+  <string key="AskEat">
+    <value>Quem você gostaria de atacar?</value>
+  </string>
+  <string key="AskHunt">
+    <value>Gostaria de espalhar gás em quem?</value>
+  </string>
+  <string key="AskRoleModel">
+    <value>Quem será o portal?</value>
+  </string>
+  <string key="AskConvert">
+    <value>Quem você gostaria de morder?</value>
+  </string>
+  <string key="DiscussWith"><!--Leave the leading spaces here please-->
+    <value>Lembre-se de discutir com {0}</value>
+  </string>
+  <string key="And"> <!--this is paired with "DiscussWith".  again, leave the spaces!-->
+    <value> e </value>
+  </string>
+  <string key="RoleInfoCursed">
+    <value>😾 Você é o Caracol. Por enquanto você é do time dos aventureiros, mas se você for atacado por Lich você será possuído.</value>
+  </string>
+  <string key="RoleInfoDetective">
+    <value>🕵️ Você é o Refri, Capitão dos Guardas Bananas e joga com os aventureiros pelo Reino Doce. Durante o dia, você pode escolher uma pessoa para investigar e descobrir seu papel. Mas ao fazer isso você pode ser descoberto por Lich!</value>
+  </string>
+  <string key="RoleInfoDrunk" isgif="true">
+    <value>🍻 Você é um Guardião da Cidadela! Se Lich te atacar ficará imobilizado por uma noite devido os efeitos do seu sangue mágico!</value>
+  </string>
+  <string key="RoleInfoGuardianAngel">
+    <value>👼 Você é Finn, o Humano! Jurou lealdade a Princesa Jujuba e protege o povo de Ooo. Toda noite escolherá alguém para proteger mas você escolher o Lich terá 50% de chance de não voltar!</value>
+  </string>
+  <string key="RoleInfoGunner">
+    <value>🔫 Você é a Princesa de Fogo. Terá 2 chances de incinerar seus inimigos durante o dia!</value>
+  </string>
+  <string key="RoleInfoHarlot">
+    <value>💋 Você é a Princesa Caroço. Durante a noite você poderá escolher alguém para flertar e descobrir se ele é um Porquê-Bisomem. Porém se você visitar um possuído pelo Lich (ou alguém que está sendo atacado por um) você irá morrer. Se o Lich atacar sua casa você irá sobreviver, já que você não estava lá.</value>
+  </string>  
+  <string key="RoleInfoTraitor">
+    <value>🖕 Você é Martin Mertens! Por enquanto voce luta por Ooo mas Lich sabe de seu egoísmo e ambição. Se todos os possuídos morrerem ele te escolherá como receptáculo! (O Rei Gelado talvez possa te ver em sonho como Possuído).</value>
+  </string>
+  <string key="RoleInfoWolf">
+    <value>🐺 VOCÊ É UM POSSUÍDO! Lich escolheu seu corpo como receptáculo e todas as noites você atacará alguém segundo as vontades dele.</value>
+  </string>
+   <string key="RoleInfoSeer">
+    <value>👳 Você é o Rei Gelado. A Coruja Cósmica te escolheu para toda noite ter um sonho profético. Ao sonhar com a pessoa você irá ver o verdadeiro papel dela. (Parece que um tal de Simon veio do passado e diz ser você de mil anos atrás...) </value>
+  </string>	  
+  <string key="RoleInfoVillager" >
+    <value>👨 Você é um cidadão do Povo Doce. Sempre que houver uma batalha você será chamado para atacar!</value>
+  </string>
+  <string key="RoleInfoTanner" >
+    <value>👺 Você é Bolha! Se você for atacado pela maioria irá estourar revelando quem realmente é. Você só ganhará se isso acontecer!</value>
+  </string>
+  <string key="RoleInfoWildChild" >
+    <value>👶 Você é o Gunter! Escolha alguém. Se ele morrer abrirá o portal que falta para sua ascensão como Orgalorg. Nessa forma você ajudará Lich como Possuído </value>
+  </string>
+  <string key="RoleInfoBeholder" >
+    <value>👁 Você é a Coruja Cósmica! Você saberá quem é o Rei Gelado que está tendo os verdadeiros sonhos proféticos! </value>
+  </string>
+  <string key="RoleInfoApprenticeSeer" >
+    <value>🙇 Você é Simon Petrikov! Veio do passado por meio de magia temporal para ajudar os aventureiros! Caso o Rei Gelado morra você assumirá a coroa e os sonhos proféticos da Coruja Cósmica.</value>
+  </string>
+  <string key="RoleInfoCultist" >
+    <value>👤 Você é um Porquê-Bisomem. Durante a noite você escolherá alguém para morder e ser dominado pelo espírito do questionamento e sede de sangue. Se todos os restantes ao final do jogo forem Porquê-Bisomens, vocês vencem! (Cuidado com o Donny!)</value>
+  </string>
+  <string key="RoleInfoCultistHunter" >
+    <value>💂 Você é Donny, o Ogro de Grama. Sua missão é afastar os Porquê-Bisomens com o gás Ofensivogênio que você expele quando é um idiota! Se os Porquê-Bisomens tentarem te morder o mais novato da alcatéia morre.</value>
+  </string>
+  <string key="LynchTime" >
+    <value>
+      Peguem suas espadas! Chegou a hora da batalha!\nTodos têm agora {0} segundos para atacar...
+    </value>
+  </string>
+  <string key="DayTime" >
+    <value >Aproxima-se a hora da batalha. Vocês têm agora {0} segundos para fazer panquecas de toucinho, salvar princesas e montar estratégias.</value>
+  </string>
+  <string key="NightTime" >
+    <value >Cai a noite. Todos estão em seus reinos esperando o hora de entrar em cena. vocês têm {0} segundos para usar suas ações!</value>
+  </string>
+  <string key="LynchKill" >
+    <value >O povo de Ooo lutou bravamente e {0} foi eliminado! {1}</value>
+  </string>
+  <string key="LynchTie" >
+    <value >O combate foi feroz porém ninguém pereceu dessa vez.</value>
+  </string>
+  <string key="NoLynchVotes" >
+    <value >Houve uma trégua! Ninguém atacou e todos voltam para suas casas ilesos...</value>
+  </string>
+  <string key="DetectiveEaten" >
+    <value >Ooo acorda essa manhã mas ninguém consegue achar {0} entre eles. Eles correm para sua casa e encontram somente uma taça e um canudo. OH MY GLOB! REFRI ESTÁ MORTO!</value>
+  </string>
+  <string key="GuardianEaten" >
+    <value >A manhã chega e o povo doce vê {0} paralizado próximo ao chafariz. Finn Mertens foi eliminado por Lich!</value>
+  </string>
+  <string key="GunnerEaten" >
+    <value >Reino de Fogo acorda hoje com a ausência de {0}. A Princesa de Fogo foi capturada pelo Lich!</value>
+  </string>
+  <string key="SeerEaten" >
+    <value >Reino Gelado está em luto. {0}, O Rei Gelado, foi vítima do Lich.</value>
+  </string>
+  <string key="DrunkEaten" >
+    <value >Lich atacou um Guardião da Cidadela essa noite. O sangue mágico de {0} deixa Lich paralizado. Por enquanto....</value>
+  </string>
+  <string key="FoolEaten" >
+    <value>Abracadaniel foi vitima dos ataques dessa noite. {0} achava que era o Rei Gelado por efeito de alucinações do Rei Minhoca</value>
+  </string>
+  <string key="DefaultEaten" >
+    <value>Enquanto o povo de Ooo se prepara para a próxima batalha, recebem a triste notícia de que {0} foi uma vítima dos planos de Lich essa noite. {1}</value>
+  </string>
+  <string key="HunterKilledCultist">
+    <value>{0} estava na floresta com os Porquê-Bisomens quando de repente Donny aparece e libera o Ofensivogênio.</value>
+  </string>
+  <string key="NoAttack" >
+    <value >É uma manhã de paz em Ooo! Não houveram ataques na última noite.</value>
+  </string>
+  <string key="CursedBitten" >
+    <value >Você foi atacado por Lich mas ele prefere te possuir!</value>
+  </string>
+  <string key="WolfTeam">
+    <value>Seus parceiros: {0}</value>
+  </string>
+  <string key="CursedBittenToWolves" >
+    <value >Você se prepara para atacar {0} mas percebe que ele é o Caracol e decide possuí-lo!</value>
+  </string>
+  <string key="WolvesEatYou" isgif="true" >
+    <value >OH MY GLOB! VOCÊ FOI ATACADO PELO LICH!</value>
+  </string>
+  <string key="WolvesEatDrunk" >
+    <value>{0}, O Guardião da Cidadela foi morto! O sangue mágico regenerativo te deixa temporariamente imobilizado. Voce não atacará na próxima noite.</value>
+  </string>
+  <string key="GuardWolf" >
+    <value >Você tentou proteger um dos possuídos pelo Lich! Você foi eliminado.</value>
+  </string>
+  <string key="GuardSaved" >
+    <value >Parabéns Finn!! Você salvou a vida de {0}!</value>
+  </string>
+  <string key="GuardNoAttack" >
+    <value >Nada aconteceu com {0} essa noite!</value>
+  </string>
+  <string key="GuardEmptyHouse">
+    <value>Você foi proteger {0}, mas não havia ninguém em casa!</value>
+  </string>
+  <string key="GuardSavedYou" >
+    <value >Lich tentou te atacar mas Finn apareceu para te proteger essa noite!</value>
+  </string>
+  <string key="HarlotEaten">
+    <value >Princesa Caroço decidiu ficar em casa ontem. {0} não voltou essa manhã!</value>
+  </string>
+  <string key="HarlotNotHome" >
+    <value >{0} não estava em casa! Você perdeu a viagem.</value>
+  </string>
+  <string key="HarlotFuckWolf" >
+    <value >Você foi flertar com {0} para descobrir informações mas descobriu tarde demais que ele estava possuído. Você foi eliminado.</value>
+  </string>
+  <string key="HarlotFuckedWolfPublic" >
+    <value >{0} tentou flertar com a pessoa errada! A Princesa Caroço foi morta.</value>
+  </string>
+  <string key="HarlotFuckedVictimPublic" >
+    <value >Princesa Caroço foi flertar com {1} mas la ela encontra Lich atacando! {0} não consegue escapar!</value>
+  </string>
+  <string key="HarlotVisitNonWolf" >
+    <value >Você percebe que {0} não está possuído, já que vocês foram na balada do Reino Geleca.</value>
+  </string>
+  <string key="HarlotVisitYou" >
+    <value>Oh meus caroços! Você teve um encontro com a Princesa Caroço ontem no Reino Geleca!</value>
+  </string>
+  <string key="DetectiveCaught" >
+    <value >Você vê {0} xeretando por aí! Ele é o Refri!</value>
+  </string>
+  <string key="DetectiveSnoop" >
+    <value >Sua investigação provou que {0} é {1}</value>
+  </string>
+  <string key="HarlotShot" >
+    <value >Parece que {0} não gostou do encontro com a Princesa Caroço! Princesa de Fogo se descontrola e ataca {1}.</value>
+  </string>
+  <string key="DefaultShot" >
+    <value>De repente a temperatura aumenta no Reino do Fogo! {0} lança chamas em direção de {1}. Princesa de Fogo entrou na luta! {2}</value>
+  </string>
+  <string key="WolfWins" isgif="true" >
+    <value >Lich comemora a vitória destruindo o que resta de Ooo!</value>
+  </string>
+  <string key="WolvesWin" isgif="true" >
+    <value>Lich e os possuídos celebram a destruição!</value>
+  </string>
+  <string key="VillageWins" isgif="true" >
+    <value >Os aventureiros venceram! Ooo está salva!</value>
+  </string>
+  <string key="TannerWins" isgif="true" >
+    <value >Vocês atacaram o Bolha. Ele estoura revelando sua verdadeira identidade... ele é o Ar e está em todos os lugares! Lindo não é? Mas ele ganhou sozinho :)</value>
+  </string>
+  <string key="RemainingPlayersEnd">
+    <value>Jogadores restantes, papéis e lado:</value>
+  </string>
+  <string key="CultistVotedConvert" >
+    <value >{0} deseja morder {1}</value>
+  </string>
+  <string key="CultConvertCultHunter">
+    <value>{0} foi enviado para morder {1}... Entretanto, ele era o Donny! O gás Ofensivogênio envolve {0} que agora está morto.</value>
+  </string>
+  <string key="CultHunterKilledCultVisit">
+    <value>{0} foi à sua casa na noite passada, preparado(a) para te recrutar... Mas você atento nota o símbolo da serpente de três cabeças e mata o membro da Hydra! {1} restante(s)!</value>
+  </string>
+  <string key="CultConvertYou">
+    <value>Você foi mordido pelos Porquê-Bisomens e agora está possuído pelo espírito do questionamento e sede de sangue!</value>
+  </string>
+  <string key="CultTeam">
+    <value>Porquê-Bisomens: {0}</value>
+  </string>
+  <string key="CultJoin">
+    <value>{0} se transformou em Porquê-Bisomem!</value>
+  </string>
+  <string key="CultVisitEmpty">
+    <value>{0} foi enviado(a) para morder {1}... Mas ninguém estava em casa!</value>
+  </string>
+  <string key="CultWins" isgif="true">
+    <value >Todos os sobreviventes são Porquê-Bisomens!! O espírito do questionamento venceu!</value>
+  </string>
+  <string key="HunterVisitDead">
+    <value>Você foi na casa de {0}, mas chegando lá só encontra seu corpo!</value>
+  </string>
+  <string key="HunterFindCultist">
+    <value>Você vai ao encontro de {0} e descobre que ele é um Porquê-Bisomem! Rapidamente vc expele o gás Ofensivogênio e acaba com ele.</value>
+  </string>
+  <string key="HunterFailedToFind">
+    <value>Você vai ao encontro de {0} mas ele não é um Porquê-Bisomem... Ainda...</value>
+  </string>
+  <string key="WildChildToWolves">
+    <value>O último portal é aberto e Orgalorg se liberta da forma de Gunter! {0} te ajudará como possuído.</value>
+  </string>
+  <string key="WildChildTransform">
+    <value>{0} foi morto abrindo assim o portal. agora você é Orgalorg!! Por enquanto decide ajudar Lich fingindo ser um de seus possuídos! Seus novos companheiros (se tiver) são: {1}</value>
+  </string>
+  <!-- Villager, Drunk, Harlot, Seer, Traitor, GuardianAngel, Detective, Wolf, Cursed, Gunner, Tanner, Fool, WildChild, Beholder, ApprenticeSeer, Cultist, CultistHunter-->
+  <string key="Villager">
+    <value>Povo Doce 👱</value>
+  </string>
+  <string key="Drunk">
+    <value>Guardião da Cidadela 🍻</value>
+  </string>
+  <string key="Harlot">
+    <value>Princesa Caroço 💋</value>
+  </string>
+  <string key="Seer">
+    <value>Rei Gelado 👳</value>
+  </string>
+  <string key="Traitor">
+    <value>Martin Mertens 🖕</value>
+  </string>
+  <string key="GuardianAngel">
+    <value>Finn 👼</value>
+  </string>
+  <string key="Detective">
+    <value>Refri 🕵</value>
+  </string>
+  <string key="Wolf">
+    <value>Possuído 🐺</value>
+  </string>
+  <string key="Cursed">
+    <value>Caracol 😾</value>
+  </string>
+  <string key="Gunner">
+    <value>Princesa de Fogo 🔫</value>
+  </string>
+  <string key="Tanner">
+    <value>Bolha 👺</value>
+  </string>
+  <string key="Fool">
+    <value>Abracadaniel 🃏</value>
+  </string>
+  <string key="WildChild">
+    <value>Gunter 👶</value>
+  </string>
+  <string key="Beholder">
+    <value>Coruja Cósmica 👁</value>
+  </string>
+  <string key="ApprenticeSeer">
+    <value>Simon Petrikov 🙇</value>
+  </string>
+  <string key="Cultist">
+    <value>Porquê-Bisomem 👤</value>
+  </string>
+  <string key="CultistHunter">
+    <value>Donny 💂</value>
+  </string>
+  <!-- These are for the player list -->
+  <string key="RanAway">
+    <value>🏃</value>
+  </string>
+  <string key="Dead">
+    <value>⚰️</value>
+  </string>
+  <string key="Alive">
+    <value>🌟</value>
+  </string>
+   <string key="PlayersAlive">
+    <value>Vivos</value>
+  </string>
+  <!-- New strings 4 MAY 2016-->
+  <string key="Mason">
+    <value>Guarda Banana 👷</value>
+  </string>
+  <string key="RoleInfoMason">
+    <value>👷 Você é um Guarda Banana e jurou proteger a Princesa Jujuba e o Reino Doce! Se houver outros Guardas Banana você saberá quem são.</value>
+  </string>
+  <string key="MasonEaten">
+    <value>À medida que todos se levantam no Reino Doce, o corpo de {0} é encontrado perto da delegacia! um Guarda Banana está morto.</value>
+  </string>
+  <string key="MasonTeam">
+    <value>Guardas Banana: {0}</value>
+  </string>
+  <!-- new strings May 6 2016-->
+  <string key="CultTargetDead">
+    <value>O Porquê-Bisomem novato vai ao encontro de {0} para transformá-lo mas encontra uma bagunça... Seu alvo foi morto!</value>
+  </string>
+  <string key="GuardBlockedWolf">
+    <value>Você vai ao encontro de {0} para o ataque mas Finn estava te esperando! Ele usa a Espada Grama e te impede de atacar!</value>
+  </string>
+  <!-- new strings May 9 2016-->
+  <string key="CultUnableToConvert">
+    <value>{0} foi enviado para morder {1} mas ele não se transforma em Porquê-Bisomem.</value>
+  </string>
+  <!-- new string May 12 2016-->
+  <string key="NameExists">
+    <value>@{1}, um jogador com nome {0} já está no jogo. Por favor mude seu nome para poder entrar.</value>
+  </string>
+  <string key="HarlotDiscoverCult">
+    <value>Você teve um encontro com {0} mas percebe alguma coisa estranha com ele...</value>
+  </string>
+  <!-- new string May 13 2016-->
+  <string key="Was">
+    <value>era</value>
+  </string>
+  <string key="GenericDeathNoReveal">
+    <value>Amanhece em Ooo e percebem a ausência de {0}... Quando checam sua casa encontram seu corpo.</value>
+  </string>
+  <string key="MasonConverted">
+    <value>Estranho.... {0} não apareceu na delegacia essa manhã... O.o</value>
+  </string>
+  <!-- new string May 16 2016-->
+  <string key="FleeDisabled">
+    <value>Você tenta fugir mas Conde Limãograb acha isso INACEITÁVEL!</value>
+  </string>
+  <string key="IsDead"> <!-- used when gunner shoots a player -->
+    <value>está morto!</value>
+  </string>
+    <!-- MORE STRINGS May 16, 2016 -->
+  <string key="AlreadyInGame">
+    <value>Você já está em uma partida! ({0})</value>
+  </string>
+  <string key="NoGame">
+    <value>Inicie uma nova aventura com /startgame ou /startchaos</value>
+  </string>
+  <string key="GroupAdminOnly">
+    <value>Somente a realeza pode fazer isso!</value>
+  </string>
+    <string key="NoSeer">
+	<value>Não tem Rei Gelado!</value>
+  </string>
+  <string key="TimesUp">
+	<value>Tempo esgotado!</value>
+  </string>
+  <!-- new strings june 10 2016 -->
+  <string key="RoleInfoCupid">
+    <value>🏹 Você é a Lady Íris. Escolha duas pessoas que serão entrelaçadas magicamente. Se um deles morrer o outro também morrerá.</value>
+  </string>
+  <string key="RoleInfoDoppelganger">
+    <value>🎭 Você é a Criatura Venenosa. Veio de outra dimensão e tem habilidades metamóficas. Escolha quem você deseja copiar forma e poderes, após a morte do escolhido você tomará o seu lugar. (Para vencer o jogo você deverá assumir o papel da pessoa escolhida e vencer juntamente com seu time, caso isto não ocorra você perderá)</value>
+  </string>
+  <string key="RoleInfoHunter">
+    <value>🎯 Você é a Marceline, Rainha dos Vampiros! Caso morra, poderá usar seus poderes diabólicos para levar alguem junto. Se o Lich te visitar você não aceitaria ir para outro mundo sozinha. Mas talvez você não consiga escolher quem matar.</value>
+  </string>
+  <string key="RoleInfoSerialKiller">
+    <value>🔪 Você é Morte. Senhor do mundo dos mortos. Não importa de que lado os outros sejam, você levará todos eles para a Terra dos Mortos...</value>
+  </string>
+  <string key="HunterLynchedChoice">
+    <value>Os povo se volta contra você. é a sua última chance de revidar! Deseja levar quem com você?</value>
+  </string>
+  <string key="HunterNoChoiceLynched">
+    <value>{0} tenta alcançar seu Baixo-Machado mas não há forças para resistir...</value>
+  </string>
+  <string key="HunterSkipChoiceLynched">
+    <value>{0} tenta revidar mas está muito fraca por falta de vermelho...</value>
+  </string>
+  <string key="HunterKilledFinalLynched">
+    <value>Quase perecendo {0} usa suas ultimas forças para sugar a alma de {1} que cai sem vida. {2}</value>
+  </string>
+  <string key="HunterShotChoice">
+    <value>Você foi ferido mortalmente! é a sua última chance de revidar! Deseja levar quem com você?</value>
+  </string>
+  <string key="HunterNoChoiceShot">
+    <value>{0} tenta alcançar seu Baixo-Machado mas não há forças para resistir...</value>
+  </string>
+  <string key="HunterSkipChoiceShot">
+    <value>{0} tenta revidar mas está muito fraca por falta de vermelho...</value>
+  </string>
+  <string key="HunterKilledFinalShot">
+    <value>{0} cai no chão... Mas antes de morrer, ela invoca um exercito de mortos para atacar {1}, que não resiste e cai por terra. {2}</value>
+  </string>
+  <string key="HunterShotWolfMulti">
+    <value>Os aventureiros escutam algo na caverna de Marceline! O Lich atacou a pessoa errada. Marceline levou {0} junto com ela.</value>
+  </string>
+  <string key="HunterShotWolf">
+    <value>Os aventureiros escutam algo na caverna de Marceline! O Lich atacou a pessoa errada. Marceline levou {0} junto com ela.</value>
+  </string>
+  <string key="SerialKillerKilledWolf">
+    <value>Lich escolheu mal quem atacar! {0} é levado para a Terra dos Mortos!</value>
+  </string>
+  <string key="DefaultKilled">
+    <value>Morte aparece para {0} e decide que o tempo de vida dele chegou ao fim. {1}</value>
+  </string>
+  <string key="GuardBlockedKiller">
+    <value>Você foi ceifar a vida de {0}. Mas chegando lá encontra Finn coboru o favor que você devia a ele. Parece que {0} vai viver mais um pouquinho... </value>
+  </string>
+  <string key="CultConvertHunter">
+    <value>Os Porquê-Bisomens mandam {0} morder {1}. Mas chegando lá a alma de {0} é sugada!...</value>
+  </string>
+  <string key="CultConvertSerialKiller">
+    <value>Os Porquê-Bisomens mandam {0} morder {1}. Mas chegando lá {0} descobre que seu tempo de vida chegou ao fim...</value>
+    <value>{0} vai ao encontro de {1}. Mas assim que o encontra descobre que na verdade Morte estava esperando-o. {0} está morto(a)</value>
+  </string>
+  <string key="GuardKiller">
+    <value>Você tentou proteger o Morte e parece que dessa vez não vai ter acordo! Ele te leva pra Terra dos Mortos.</value>
+  </string>
+  <string key="HarlotFuckKiller">
+    <value>Você tinha um encontro com {0}. Mas descobre tarde que esse encontro vai ser na Terra dos Mortos!</value>
+  </string>
+  <string key="HarlotFuckKillerPublic">
+    <value> Princesa Caroço foi ter um encontro com a Morte essa noite. {0} não voltará!</value>
+  </string>
+  <string key="DGToMason">
+    <value>{0} era Criatura Venenosa e agora se tornou um Guarda Banana assim como você!</value>
+  </string>
+  <string key="DGTransformToMason">
+    <value>{0} morreu e você agora é um Guarda Banana. Os outros Guardas Bananas (se houver) são: {1}</value>
+  </string>
+  <string key="DGToCult">
+    <value>{0} era Criatura Venenosa e agora se transformou em um Porquê-Bisomem!</value>
+  </string>
+  <string key="DGTransformToCult">
+    <value>{0} morreu e você agora é um Porquê-Bisomem! Seus novos companheiros (se houver) são: {1}</value>
+  </string>
+  <string key="DGToWolf">
+    <value>{0} era Criatura Venenosa e foi possuído por Lich!</value>
+  </string>
+  <string key="DGTransformToWolf">
+    <value>{0} morreu e você se transformou no novo receptáculo do Lich!! Seus companheiros (se houver) são: {1}</value>
+  </string>
+  <string key="SerialKillerWins" isgif="true">
+    <value>O único sobrevivente foi Morte!! Parece que o trabalho está concluído nesse planeta.</value>
+  </string>
+  <string key="AskKill">
+    <value>Quem você ceifar essa noite?</value>
+  </string>
+  <string key="LoverDied">
+    <value>{1} está sob os efeitos mágicos dos cristais de Lady Íris e é morto juntamente com {0} {2}</value>
+  </string>
+  <string key="AskDoppelganger">
+    <value>Quem você escolherá para se transformar?</value>
+  </string>
+  <string key="AskCupid1">
+    <value>Quem serão os entrelaçados? Escolha o primeiro.</value>
+  </string>
+  <string key="AskCupid2">
+    <value>Quem serão os entrelaçados? Escolha o segundo.</value>
+  </string>
+  <string key="Hunter">
+    <value>Marceline 🎯</value>
+  </string>
+  <string key="Cupid">
+    <value>Lady Íris 🏹</value>
+  </string>
+  <string key="SerialKiller">
+    <value>Morte 🔪</value>
+  </string>
+  <string key="Doppelgänger">
+    <value>Criatura Venenosa 🎭</value>
+  </string>
+  <string key="CupidChosen">
+    <value>Voce foi afetado pela magia do cristal do entrelaçamento! Você está entrelaçado por {0}! Se ele(a) morre, você morre também. No final se só os dois estiverem vivos vocês vencem sozinhos.</value>
+      </string>
+  <string key="NewWCRoleModel">
+    <value>Você se tornou Gunter. Seu portal é {0}</value>
+  </string>
+  <string key="LoversWin">
+    <value>Oh my Glob! os entrelaçados venceram!</value>
+  </string>
+  <string key="HunterKilledVisiter">
+    <value>{0} é econtrado na porta da caverna de Marceline. Parece que alguém visitou a Rainha dos Vampiros e se deu mal! {1}</value>
+  </string>
+
+  <string key="CultAttempt">
+    <value>Você é surpreendido por um Porquê-Bisomem mas consegue fugir!</value>
+  </string>
+  <string key="AlreadyOnWaitList">
+    <value>Você já está esperando o jogo em {0}</value>
+  </string>
+  <string key="AddedToWaitList">
+    <value>Você está esperando para o próximo aventura em {0}. Finn e Jake te avisarão quando for a a hora!</value>
+  </string>
+  <string key="NotifyNewGame">
+    <value>É HORA DE AVENTURA! Prepare suas espadas e vá a luta em {0}</value>
+  </string>
+  <string key="SerialKillerWinsOverpower">
+    <value>Amanhece em Ooo e somente {0} e {1} estão vivos. Por enquanto. Morte ceifa a vida de {1}.</value>
+  </string>
+  <string key="NoWinner" isgif="true">
+    <value>Ai meus caroços!! Todos perderam a guerra!</value>
+  </string>
+  <string key="SKHunterEnd">
+    <value>{0} e {1} são os únicos sobreviventes. {0} tenta levar {1} mas Marceline engana Morte e leva-o para a Noitosfera. Não houve nenhum vencedor...</value>
+  </string>
+    <string key="RoleModelChosen">
+    <value>Você não decidiu a tempo, então Neptr escolheu por você: {0}</value>
+  </string>
+  <string key="Won">
+
+    <value>🏆 Vitória 🏆</value>
+  </string>
+  <string key="Lost">
+
+    <value>☠️ Derrota ☠️</value>
+  </string>
+  <string key="IdleCount">
+    <!-- 0 - player's name -->
+    <!-- 1 - idle count -->
+    <value>O jogador {0} não votou e foi morto {1} vezes nas últimas 24h.</value>
+	</string>
+<!--Novas Strings, feitas dia 07/06/2016. Traduzidas dia 09/06/2016-->
+  <string key="AboutVG">
+  <value >Você é um Herói Veterano, sua força é fundamental para ajudar os heróis na batalha contra os Cavaleiros do Apocalipse, seus inimigos! Sempre que houver uma batalha você será chamado para atacar junto!</value>
+  </string>
+  <string key="AboutSeer">
+    <value>Você é o Telepata, seu papel é guiar a os heróis na empreitada contra os Cavaleiros do Apocalipse.  Durante a noite, você pode escolher alguém para 'ver', e ter seu papel revelado a você. Se revele com cautela, porque os Cavaleiros estão loucos pra eliminar você!</value>
+  </string>
+  <string key="AboutWw">
+    <value>VOCÊ É UM CAVALEIRO DO APOCALIPSE!! Bom pra você! Durante a noite você pode escolher alguém para matar, junto com seu time, os Cavaleiros.</value>
+  </string>
+  <string key="AboutHarlot">
+    <value>Safada! Você é a Viúva Negra, a aliada sexy dos heóis. Durante a noite, você poderá escolher alguém para fazer uma visitinha, e descobrir se a pessoa é ou não um cavaleiro.  Porém, se você visitar um cavaleiro, ou alguém que está sendo atacado(a) pelos cavaleiros, você irá morrer.  Se você visitar alguém e os lcavaleiros tentarem te matar na sua casa, você irá sobreviver (já que não estava lá).</value>
+  </string>
+  <string key="AboutDrunk">
+    <value>Parabéns, você é o Tony Stark o baladeiro beberrão! Você tem bafo de cachaça, mas joga com os Heróis. Se os Cavaleiros te atacarem, você irá convida-los para se juntar a sua festinha particular e eles ficarão de ressaca, e não poderão atacar ninguém na noite seguinte!</value>
+  </string>
+  <string key="AboutCursed">
+    <value>Você é o Motoqueiro Fantasma. Por enquanto você é um herói, mas se você por atacado pelos cavaleiros, seduzido pelo poder do Apocalipse você se tornará um cavaleiro também!.</value>
+  </string>
+  <string key="AboutTraitor">
+    <value>Você é o Loki Laufeyson! Por enquanto você é um herói, mas assim que todos os cavaleiros do apocalipse estiverem mortos, você se juntará a causa do Apocalipse se tornando um cavaleiro. Só Telepata poderá identificar você como um cavaleiro ou não.</value>
+  </string>
+  <string key="AboutGA">
+    <value>Você é o Homem-Aranha, e seu papel é proteger os heróis. Durante a noite, você pode escolher um(a) jogador(a) para proteger.  Porém, se você escolher um cavaleiro, há 50% de chance de ser morto.</value>
+  </string>
+  <string key="AboutDetective">
+    <value>Você é a Jessica Jones, e joga com os heróis. Durante o dia, você pode escolher uma pessoa para investigar e descobrir seu papel.  No entanto, ao fazer isso, você pode ser desmascarada pelos cavaleiros do apocalipse! (40% de chance)</value>
+  </string>
+  <string key="AboutGunner">
+    <value>Você é o Deadpool! Você possui 2 balas para ajudar os heróis. Durante o dia, você pode atirar em alguém. Todo mundo ouvirá os disparos e saberão que você é o mercenário tagarela.</value>
+  </string>
+  <string key="AboutTanner">
+    <value >Você é o Nitro, o homem explosivo!  Se você for atacado pela maioria, você irá se vingar explodindo a tudo e a todos!</value>
+  </string>
+  <string key="AboutFool">
+    <value>he fool is told they are the seer.... when they choose to see someone's role at night, they are told a random role.</value>
+  </string>
+  <string key="AboutCult">
+    <value>Você é um agente da Hydra.  Durante a noite, você poderá escolher alguém para recrutar à Hydra. Se todos os jogadores restantes ao final do jogo forem da Hydra, ela vence!</value>
+  </string>
+  <string key="AboutCH">
+    <value>A Hydra vaga pela cidade recrutando novos membros para sua causa maligna, e você o Capitão América deve proteger a cidade!  Durante a noite você poderá escolher alguém para interrogar.  Se ele(a) for da Hydra, ele(a) morre.  Caso a Hydra tente te recrutar, o membro mais recente morre.</value>
+  </string>
+  <string key="AboutWC">
+    <value>Você é o Bruce Banner! Escolha alguém para ser o seu 'Exemplo'. Se ele morrer, você ficará revoltado, e será facilmente controlado pelos poderes do Apocalipse se tornando um de seus Cavaleiros.</value>
+  </string>
+  <string key="AboutAppS">
+    <value>Você é a Jean Grey, e joga com os heróis.  Caso o verdadeiro Telepata morra, você tomará sua posição de diretor do Instituto Xavier.</value>
+  </string>
+  <string key="AboutBH">
+    <value>Você é o Vigia! Você saberá quem é o verdadeiro telepata(e não a Vampira). Use isso para ajudar seu time!</value>
+  </string>
+  <string key="AboutMason">
+    <value>Você é um agente da S.H.I.E.L.D, e participa de uma sociedade secreta que faz parte. Se houver outros agentes, você saberá quem são. Caso contrário, você será um Herói Veterano.</value>
+  </string>
+  <string key="AboutDG">
+    <value>
+     Você é a Vampira! Com sua Habilidade de absorção de memórias vocÊ pode copiar os poderes de qualquer um dos johadores apenas ao tocá-los. Escolha de qual personagem você deseja copiar os poderes. Você só poderá usá-los após a morte do personagem escolhido.</value>
+  </string>
+  <string key="AboutCupid">
+    <value>
+      Você é a Encantor, A Encantadora de mentes! Você pode escolher dois jogadores que serão enfeitiçados para toda eternidade com a ilusão de que são dois amantes. Se um deles morrer, o outro morrerá de tristeza. Depois de escolher os enfeitiçados, você pode voltar ao seu papel como Herói.
+    </value>
+  </string>
+  <string key="AboutHunter">
+    <value>🎯 Você é a Marceline, Rainha dos Vampiros! Caso morra, poderá usar seus poderes diabólicos para levar alguem junto. Se o Lich te visitar você não aceitaria ir para outro mundo sozinha. Mas talvez você não consiga escolher quem matar.</value>
+  </string>
+  <string key="AboutSK">
+    <value>🔪 Você é Morte. Senhor do mundo dos mortos. Não importa de que lado os outros sejam, você levará todos eles para a Terra dos Mortos...</value>
+  </string>
+  <string key="AboutPara">
+    <value>Para é o desenvolvedor do primeiro bot de Werewolf. Este porém foi desenvolvido por @Fernando0 com uma pequena ajuda da equipe Zion</value>
+  </string>
+  <string key="EndTime">
+    <value>⏳ Adventure Time: {0}</value>
+  </string>
+ 
+ 
+    <!--New strings, July the 8th -->
+
+  <string key="Day">
+    <!--0 - Day -->
+    <value>{0}º dia</value>
+  </string>
+  <string key="NodeShutsDown">
+    <value>Alguma coisa deu errado, e esse nodo desligou :/</value>
+  </string>
+  <string key="SentPrivate">
+    <value>Eu te enviei uma mensagem no privado 🌚</value>
+  </string>
+  <string key="WhatToDo">
+    <value>O que você quer fazer?</value>
+  </string>
+  <string key="JoinFromGroup">
+    <value>Você precisa estar em um grupo para se juntar a uma partida nele!</value>
+  </string>
+  <string key="StartFromGroup">
+    <value>Você precisa começar uma partida dentro de um grupo!</value>
+  </string>
+  <string key="PingInfo">
+    <value>Tempo de processamento da mensagem: {0}\nMensagens por segundo: {1}</value>
+  </string>
+  <string key="WhatLang">
+    <value>Que língua?\nAtual: {0}</value>
+  </string>
+  <string key="WhatVariant">
+    <value>Que variante?\nAtual: {0}</value>
+  </string>
+  <string key="LangSet">
+    <value>Idioma definido como {0}</value>
+  </string>
+  <string key="GetLang">
+    <value>Pegar que arquivo de idioma?</value>
+  </string>
+  <string key="NoNodes">
+    <value>Não há nodos ligados no momento, por favor tente novamente dentro de alguns segundos</value>
+  </string>
+  <string key="GroupCommandOnly">
+    <value>Você precisa acionar esse comando em um grupo</value>
+  </string>
+  <string key="NotGlobalAdmin">
+    <value>Você não é Marshall Lee!</value>
+  </string>
+  <string key="NotPara">
+    <value>Você não é o Godofredo 🤡🤙🏿</value>
+  </string>
+  <string key="Yes">
+    <value>Sim</value>
+  </string>
+  <string key="No">
+    <value>Não</value>
+  </string>
+  <string key="Allow">
+    <value>Permitir</value>
+  </string>
+  <string key="Disallow">
+    <value>Não permitir</value>
+  </string>
+  <string key="Show">
+    <value>Mostrar</value>
+  </string>
+  <string key="Hide">
+    <value>Não mostrar</value>
+  </string>
+  <!-- Game Mode Choices-->
+  <string key="NormalOnly">
+    <value>Apenas Normal</value>
+  </string>
+  <string key="ChaosOnly">
+    <value>Apenas Caos</value>
+  </string>
+  <string key="PlayerChoice">
+    <value>Escolha do jogador</value>
+  </string>
+
+  <!-- Show Roles on End Game -->
+  <string key="ShowNone">
+    <value>Não mostrar nenhum</value>
+  </string>
+  <string key="ShowLiving">
+    <value>Mostrar apenas os de jogadores vivos</value>
+  </string>
+  <string key="ShowAll">
+    <value>Mostrar os de todos os jogadores</value>
+  </string>
+
+  <string key="Cancel">
+    <value>Cancelar</value>
+  </string>
+  <string key="AllowFleeQ">
+    <!-- note, there is NO space after {0}.  This is on purpose # editem isso quando der pra traduzir o "not"# -->
+    <value>Você quer permitir fugas após o início de uma partida?\nLembre-se que jogadores sempre poderão fugir antes do início da partida!\nAtual: Players can {0}flee</value>
+  </string>
+  <string key="AllowFleeA">
+    <!-- note, there is NO space after {0}.  This is on purpose  # editem isso quando der pra traduzir o "not" # -->
+    <value>Players will {0}be allowed to flee after game start</value>
+  </string>
+  <string key="MaxPlayersQ">
+    <value>Que quantidade de jogadores você gostaria de definir como a máxima?\nAtual: {0}</value>
+  </string>
+  <string key="MaxPlayersA">
+    <value>Número máximo de jogadores definido como {0}</value>
+  </string>
+  <string key="ShowRolesDeathQ">
+    <value>Mostrar ou não os papéis dos jogadores quando morrerem?\nAtual: {0}</value>
+  </string>
+  <!-- # editem isso quando der pra traduzir o shown/hidden # -->
+  <string key="ShowRolesDeathA">
+    <value>Papéis dos jogadores serão {0} quando morrerem.</value>
+  </string>
+  <string key="GameModeQ">
+    <value>Qual modo de jogo estará ativo no grupo?\nAtual: {0}</value>
+  </string>
+  <string key="GameModeA">
+    <value>Modo de jogo definido como {0}</value>
+  </string>
+  <string key="ShowRolesEndQ">
+    <value>Como você quer que os papéis de jogadores sejam revelados ao fim do jogo?\nAtual: {0}</value>
+  </string>
+  <string key="ShowRolesEndA">
+    <value>Revelação dos papéis definida como: {0}</value>
+  </string>
+  <string key="SetDayTimeQ">
+    <value>Escolha a duração base (em segundos) do dia.   Ela ainda será modificada de acordo com o número de jogadores.\nO tempo mínimo adicionado de acordo com os jogadores é de 60 segundos.  Configuração padrão: {0}\nAtual: {1}</value>
+  </string>
+  <string key="SetDayTimeA">
+    <value>Duração base do dia definida como {0} segundos</value>
+  </string>
+  <string key="SetNightTimeQ">
+    <value>Escolha a duração (em segundos) da noite. Configuração Padrão: {0}\nAtual:{1}</value>
+  </string>
+  <string key="SetNightTimeA">
+    <value>Duração da noite definida como {0} segundos</value>
+  </string>
+  <string key="SetLynchTimeQ">
+    <value>Escolha a duração (em segundos) para escolher alguém para atacar. Configuração padrão: {0}\nAtual:{1}</value>
+  </string>
+  <string key="SetLynchTimeA">
+    <value>Duração da escolha para atacar definida como {0} segundos</value>
+  </string>
+  <string key="AllowFoolQ">
+    <value>Permitir Abracadaniel como um papel possível?\nAtual: {0}</value>
+  </string>
+  <string key="AllowFoolA">
+    <value>Existência do Abracadaniel definida como: {0}</value>
+  </string>
+  <string key="AllowTannerQ">
+    <value>Permitir o Bolha como um papel possível?\nAtual: {0}</value>
+  </string>
+  <string key="AllowTannerA">
+    <value>Existência do Bolha definida como: {0}</value>
+  </string>
+  <string key="AllowCultQ">
+    <value>Permitir os Porquê-Bisomens como um papel possível?\nAtual: {0}</value>
+  </string>
+  <string key="AllowCultA">
+    <value>Existência dos Porquê-Bisomens definida como: {0}</value>
+  </string>
+  <string key="ThankYou">
+    <value>Obrigado e tenha um bom jogo!</value>
+  </string>
+   <string key="WhatLangGroup">
+    <value>Você quer procurar um grupo jogando em que idioma?</value>
+  </string>
+  <string key="HereIsList">
+    <value>Aqui estão os grupos jogando em {0}:</value>
+  </string>
+  <string key="Members">
+    <value>Membros</value>
+  </string>
+  <string key="StartMe">
+    <value>Por favor me mande start no privado para eu poder te enviar mensagens.</value>
+  </string>
+  <string key="PlayerNoPM">
+    <value>{0} não iniciou o bot, e foi removido(a) do jogo!</value>
+  </string>
+  <string key="LatestList">
+    <value>👥 Aqui está a lista mais recente de jogadores</value>
+  </string>
+  <string key="UnableToGetList">
+    <value>Não fui capaz de obter a lista de jogadores, você tem certeza de que já começou?</value>
+  </string>
+  <string key="YouJoined">
+    <value>Você se juntou à aventura em {0}</value>
+  </string>
+    <string key="Ping2">
+    <value>Tempo até o envio da mensagem de ping: {0}</value>
+  </string>
+  
+  <!-- Update 4.0-->
+  <string key="RoleInfoMayor">
+    <value>🎖 Você é Jake, o Cão. Você pode decidir usar seus poderes metamórficos poderá dobrar de tamanho atacando por 2 na hora da luta! Feito isso todos irão ver que você é o Jake.</value>
+  </string>
+  <string key="RoleInfoPrince">
+    <value>👑 Você é Princesa Jujuba! Se tentarem atacá-la, será revelada a sua autoridade e você sobreviverá. Mas ainda poderá ser morta durante a noite ou pela Princesa de Fogo.</value>
+  </string>
+  <string key="RoleInfoClumsyGuy">
+	<value>🤕 QUEM QUER JOGAR... VIDEO GAMES?!! Você é o BMO! Tem um coração enorme mas também é desastrado e tem 50% de chance de atacar a pessoa errada</value>
+  </string>
+  <string key="RoleInfoSorcerer">
+    <value>🔮 Você é Mordomo Menta. À noite você usará seu conhecimento em magia negra para encontrar os possuídos pelo Lich ou ver onde o Rei Gelado está tendo os sonhos com a Coruja Cósmica. Você ganha somente se o Lich ganhar. </value>
+  </string>
+  <string key="RoleInfoBlacksmith">
+    <value>⚒ Você é o Guardião Chiclete, protetor do Reino Doce. Você poderá guardar o Reino Doce dos ataques de Lich por uma noite. Feito isso todos irão ver que você é o Guardião Chiclete. </value>
+  </string>
+  <string key="RoleInfoAlphaWolf">
+    <value>⚡️ Você é o Lich! A encarnação de tudo que há de mal e deseja destruir toda forma de vida! a sua vítima tem 20% de chance de ser possuída por você. </value>
+  </string>
+  <string key="RoleInfoWolfCub">
+    <value>🐶 Você é Kee-Oth, o demônio! Você está ajudando Lich em seus planos de destruição. Se você for morto Lich usará seu sangue amaldiçoado para se fortalecer e atacar duas vezes na noite subsequente. </value>
+  </string>
+  <string key="PrinceLynched">
+    <value>O povo estava atacando {0} até que ela que grita, "ESPEREM SEUS BOBALHÕES!! COMO OUSAM ATACAR A SUA PRINCESA??". Envergonhados todos voltam para suas casas.</value>
+  </string>
+  <string key="SorcererOther">
+    <value>Você tenta ver {0}, mas tudo o que sabe é que ele não está tendo sonhos proféticos nem possuído pelo Lich...</value>
+  </string>
+  <string key="MayorReveal">
+    <value>De repente Jake aumenta seu tamanho ficando duas vezes maior! Agora os ataques de {0} serão duplamente efetivos!</value>
+  </string>
+  <string key="AskMayor">
+    <value>Clique em "Esticar-se" quando estiver pronto para dobrar de tamanho.</value>
+  </string>
+  <string key="Reveal">
+    <value>Esticar-se</value>
+  </string>
+  <string key="SpreadDust">
+    <value>Você quer se revelar e proteger o Reino Doce hoje impedindo o Lich de atacar essa noite?</value>
+  </string>
+  <string key="BlacksmithSpreadSilver" isgif="true">
+    <value>{0} se revela como Guardião Chiclete e inicia o protocolo de defesa ao Reino Doce! Essa noite Lich não atacará.</value>
+  </string>
+  
+  <string key="PsychicMage">
+    <value>Mágico 🌀</value>
+</string>
+<string key="ConfuseLynching">
+    <value>Você deseja conjurar a loucura hoje?</value>
+</string>
+<string key="PsychicMageConvertedToVillage">
+    <value>A loucura acabou eliminando um dos vilões e você se junta ao lado do povo de Ooo.</value>
+</string>
+<string key="PsychicMageConvertedToWolves">
+  <value>A confusão acabou matando um cidadão de Ooo. Você foge e se junta ao lado do Lich</value>
+</string>
+<string key="RoleInfoPsychicMage">
+    <value>🌀 Você é o Mágico! Durante o dia pode conjurar a magia da loucura e confundir todos durante o ataque! Você só terá um lado após alguém morrer por sua magia!</value>
+</string>
+<string key="LynchConfusion">
+    <value>Em meio a confusão {0} é morto! Todos começam a se dar conta do que acabaram de fazer. O Mágico brincou com todos novamente. {1}</value>
+</string>
+  
+  <string key="Mayor">
+    <value>Jake 🎖</value>
+  </string>
+  <string key="Prince">
+    <value>Princesa Jujuba 👑</value>
+  </string>
+  <string key="Sorcerer">
+    <value>Mordomo Menta 🔮</value>
+  </string>
+  <string key="ClumsyGuy">
+    <value>BMO 🤕</value>
+  </string>
+  <string key="Blacksmith">
+    <value>Guardião Chiclete ⚒</value>
+  </string>
+  <string key="AlphaWolf">
+    <value>Lich ⚡️</value>
+  </string>
+  <string key="WolfCub">
+    <value>Kee-Oth 🐶</value>
+  </string>
+  <string key="PlayerBittenWolves">
+    <value>Você vai atacar {0} mas decide torná-lo um receptáculo. {0} será possuído por {1} na próxima noite.</value>
+  </string>
+  <string key="PlayerBitten">
+    <value>Você foi visitado por Lich mas ele decide te transformar em um possuído!</value>
+  </string>
+  <string key="BittenTurned">
+    <value>O sol se põe, Vozes ecoam em sua cabeça... Agora você está possuído pelo Lich!</value>
+  </string>
+  <string key="AboutMayor">
+    <value>Como Jake, você é um aventureiro comum até se revelar. Revelado o seu ataque é duas vezes mais efetivo contra alguém! Use o seu poder sabiamente.</value>
+  </string>
+  <string key="AboutPrince">
+    <value>👑 Você é Princesa Jujuba! Se tentarem atacá-la, será revelada a sua autoridade e você sobreviverá. Mas ainda poderá ser morta durante a noite ou pela Princesa de Fogo.</value>
+  </string>
+  <string key="AboutSorcerer">
+    <value>🔮 Você é Mordomo Menta. À noite você usará seu conhecimento em magia negra para encontrar os possuídos pelo Lich ou ver onde o Rei Gelado está tendo os sonhos com a Coruja Cósmica. Você ganha somente se o Lich ganhar. </value>
+  </string>
+  <string key="AboutClumsy">
+	<value>🤕 QUEM QUER JOGAR... VIDEO GAMES?!! Você é o BMO! Tem um coração enorme mas também é desastrado e tem 50% de chance de atacar a pessoa errada</value>
+  </string>
+  <string key="AboutBlacksmith">
+    <value>⚒ Você é o Guardião Chiclete, protetor do Reino Doce. Você poderá guardar o Reino Doce dos ataques de Lich por uma noite. Feito isso todos irão ver que você é o Guardião Chiclete. </value>
+      </string>
+  <string key="AboutAlphaWolf">
+    <value>⚡️ Você é o Lich! A encarnação de tudo que há de mal e deseja destruir toda forma de vida! a sua vítima tem 20% de chance de ser possuída por você. </value>
+  </string>
+  <string key="AboutWolfCub">
+    <value>🐶 Você é Kee-Oth, o demônio! Você está ajudando Lich em seus planos de destruição. Se você for morto Lich usará seu sangue amaldiçoado para se fortalecer e atacar duas vezes na noite subsequente. </value>
+  </string>
+
+ <!-- new strings 06 nov-->
+  <string key="DGTransformToAlpha">
+    <!-- 0 - target's name -->
+    <!-- 1 - teammates's name -->
+    <value>{0} morreu, e você se transformou no Lich. Os seus companheiros (se houver) são: {1}.</value>
+  </string>
+  <string key="DGTransformToWolfCub">
+    <!-- 0 - target's name -->
+    <!-- 1 - teammates's name -->
+    <value>{0} morreu, e você se transformou no Kee-Oth. Os seus companheiros (se houver) são: {1}.</value>
+  </string>
+  <string key="VillageTeam">
+    <value>Povo de Ooo</value>
+  </string>
+  <string key="NeutralTeam">
+    <value>Sem Time</value>
+  </string>
+  <string key="WolfTeam">
+    <value>Lich</value>
+  </string>
+  <string key="SerialKillerTeam">
+    <value>Morte</value>
+  </string>
+  <string key="CultTeam">
+    <value>Porquê-Bisomens</value>
+  </string>
+  <string key="TannerTeam">
+    <value>Bolha</value>
+  </string>
+  <string key="VillageTeamEnd">
+  <value>Povo de Ooo</value> 
+  </string>
+  <string key="NeutralTeamEnd">
+  <value>Sem Time</value> 
+  </string>
+  <string key="WolfTeamEnd">
+  <value>Lich</value> 
+  </string>
+  <string key="SerialKillerTeamEnd">
+  <value>Morte</value> 
+  </string>
+ <string key="CultTeamEnd">
+  <value>Porquê-Bisomens</value> 
+  </string>
+  <string key="TannerTeamEnd">
+  <value>Bolha</value> 
+  </string>
+  <string key="CultConvertWolf">
+  <value>Os Porquê-Bisomens enviam {0} para morder {1} mas ele não volta mais. {0} está morto...</value>
+  </string>	  
+  <string key="HarlotFuckedKilledPublic">
+    <value>{0} vai a casa de {1} para um encontro mas lá encontra Morte. Princesa Caroço foi levada pela Morte!</value>
+  </string>
+  <!--New Death Strings 05 Nov-->
+  <string key="ApprenticeSeerEaten">
+    <value>Péssima notícia para o Reino Gelado! Simon Petrikov que tinha vindo do passado para ajudar no combate foi atacado! {0} está morto...</value>
+  </string>
+  <string key="BlacksmithKilled">
+    <value>Parece que nem {0}, o Guardião Chiclete teve sua alma poupada por Morte.</value>
+  </string>
+  <string key="CultistKilled">
+    <value>Morte ceifou essa noite! Os Porquê-Bisomens sentiram a falta de {0}...</value>
+  </string>
+  <string key="CupidKilled">
+    <value>{0}, Lady Íris desaparece misteriosamente! Boatos que viram Morte próxima à casa dela ontem a noite.</value>
+  </string>
+ <string key="DrunkKilled">
+<value>{0}, o Guardião da Cidadela desaparece. Morte passou por aqui.</value>
+  </string>
+  <string key="GuardianAngelKilled">
+    <value>Morte foi ao encontro de {0}. Finn terá que arrumar alguma maneira de escapar da Terra Dos Mortos antes que seja tarde!</value>
+  </string>
+  <string key="GunnerKilled">
+    <value>Reino de Fogo amanhece em cinzas! As chamas da Princesa de Fogo não brilham mais em Ooo. Morte decidiu que era a hora de {0}.</value>
+  </string>
+  <string key="MayorKilled">
+    <value>Jake realizou seu sonho de morte e sua consciência individual terrena se juntou ao universo. {0} aceitou seu destino.</value>
+  </string>
+  <string key="PrinceKilled">
+    <value>{0} está morta! Reino Doce está de luto por sua perda. Exceto o Rei de Ooo que viu essa oportunidade para tomar o reino novamente. Morte levou Princesa Jujuba.</value>
+  </string>
+  <string key="SeerKilled">
+    <value>{0} não conseguiu burlar Morte dessa vez. O Rei Gelado está morto.</value>
+  </string>
+  <string key="SorcererEaten">
+    <value>{0} se deu mal tentando conjurar magia negra. Lich o traiu! Mordomo Menta não faz mais parte da batalha por Ooo.</value>
+  </string>
+  <string key="WildChildEaten">
+    <value>Lich não confiou nas promessas de Orgalorg e decidiu matá-lo ainda na forma de Gunter! {0} está morto.</value>
+  </string>
+  <string key="SerialKillerKilledCH"> <!--used when CH visits SK-->
+    <value>Ah não! {0} era o Donny e não estará mais presente para espantar os Porquê-Bisomens! Será que Morte fez a coisa certa?</value>
+  </string>
+  <string key="CultConvertWolfPublic"> <!--used when Cultists convert the wolves, only if wolves stayed home-->
+    <value>Péssima escolha dos Porquê-Bisomens ao escolher um dos possuidos de Lich como alvo! {0} está morto, mais uma vítima de Lich.</value>
+  </string>
+  <string key="CultConvertKillerPublic"> <!--used when Cultists convert the SK-->
+    <value>Os Porquê-Bisomens de {0}, o justiceiro resolve silenciá-lo(a) de uma vez por todas.</value>
+  </string>
+  <string key="GAGuardedKiller">
+    <value>{0} tentou proteger Morte ontem a noite. Mas ele leva Finn para a Terra dos Mortos!</value>
+  </string>
+  <string key="GAGuardedWolf">
+   <value>{0} tentou proteger alguém ontem a noite mas chegando lá descobriu que ela estava possuída por Lich! Finn não voltou essa manhã... </value>
+  </string>
+  <!--DEC 26: 1vs1 finales-->
+  <string key="HunterKillsWolfEnd">
+  <!--{0} = hunter's name, {1} = wolf's name-->
+   <value>Quando Lich tenta atacar Marceline é surpreendido por um exército de mortos! {0} chama à vida todos os que foram mortos e juntos conseguem acabar com os planos de {1}. </value>
+  </string>
+  <string key="WolfKillsHunterEnd">
+  <!--{0} = hunter's name, {1} = wolf's name-->
+   <value>Marceline tenta se defender de Lich mas ele está preparado dessa vez! {0} não conseguiu impedir... {1} derrota o último defensor de Ooo.</value>
+  </string>
+  <string key="CHKillsCultistEnd">
+  <!--{0} = last cultist's name, {1} = CH's name -->
+   <value>O último Porquê-Bisomem {0} tenta fugir de Donny. Mas {1} lança seu gás pela floresta toda e {0} não resiste! </value>
+  </string>
+<!-- Extend time -->
+<string key="SecondsAdded">
+<!-- 0 - Seconds added by /extend command -->
+<!-- 1 - Total seconds remaining -->
+<value>Tempo estendido em {0} segundos!\n{1} restando para o /join</value>
+</string>
+<string key="SecondsRemoved">
+<!-- 0 - Seconds removed by /extend command -->
+<!-- 1 - Total seconds remaining -->
+<value>Tempo reduzido em {0} segundos!\n{1} restando para o /join</value>
+</string>
+<string key="CantExtend">
+<value>Apenas Prismo pode mudar o tempo mais de uma vez!</value>
+</string>
+<string key="AllowExtendQ">
+<!--{0} = "Allow" / "Disallow" string-->
+<value>Permitir jogadores estender o tempo de início?\nAtual: {0} estender\nNota: Admins sempre poderão extender o tempo</value>
+</string>
+<string key="AllowExtendA">
+<!--{0} = "Allow" / "Disallow" string-->
+<value>{0} jogadores estender o tempo de início</value>
+</string>
+<string key="MaxExtendQ">
+<value>Escolha o tempo máximo em segundos que poderão ser adicionados ao tempo de início por um único /extend comando.\nConfiguração padrão: {0}\nAtual:{1}</value>
+</string>
+<string key="MaxExtendA">
+<value>Tempo máximo de estender: {0} segundos</value>
+</string>
+<string key="WolvesEatDrunkBlockSecondKill">
+<value>Devido a morte de {0} que era O Guardião da Cidadela você foi impossibilitado de atacar agora! {1}...</value>
+</string>
+	  <!--New InlineStats Strings 30/12-->
+  <string key="AchievementsUnlocked">
+   <value>🏅 Conquistas realizadas!</value>
+  </string>
+  <string key="AchievementsLocked">
+   <value>Conquistas bloqueadas!</value>
+  </string>
+  <string key="GamesWon">
+   <value>🏆 Vitórias</value>
+  </string>
+  <string key="GamesLost">
+   <value>☠️ Derrotas</value>
+  </string>
+  <string key="GamesSurvived">
+   <value>🌟 Sobrevivências</value>
+  </string>
+  <string key="TotalGames">
+   <value>⚔️ Aventuras</value>
+  </string>
+  <string key="TimesKilled">
+   <value>vezes eu derrotei</value>
+  </string>
+  <string key="TimesKilledBy">
+   <value>vezes eu fui derrotado por</value>
+  </string>
+	
+	  <!--New Commands by GreyWolf since March 2017-->
+  <string key="JoinButton">
+    <value>Entrar</value>
+  </string>
+  <string key="NotMember">
+    <value>Você não pode entrar nessa batalha porque você não é membro do {0}.</value>
+  </string>
+  <string key="FleeButton">
+    <value>Sair</value>
+  </string>
+  <string key="JoinByButton">
+    <value>Por favor, não use o comando join. Para entrar em uma batalha, use o botão abaixo.</value>
+  </string>
+  <string key="PlayerVoteCounts">
+    <value>{0} jogadores votaram, {1} total.</value>
+  </string>
+  <string key="EnableSecretLynchQ">
+    <value>Permitir ataque secreto?\nAtual: {0}</value>
+  </string>
+  <string key="EnableSecretLynchA">
+    <value>Ataque secreto definido como: {0}</value>
+  </string>
+  <string key="NoAutoJoin">
+    <value>{0}, lembre-se que você também terá que usar o botão para se juntar à batalha.</value>
+  </string>
+  <string key="GroupNotFound"> <!--This string might need rewording from some native speaker-->
+    <value>Não foi possível encontrar esse grupo. Por favor, use este comando no grupo que deseja parar de esperar ou adicione o link, o ID ou o nome de usuário do grupo após o comando.</value>
+  </string>
+  <string key="DeletedFromWaitList">
+    <value>Você foi excluído da lista de espera em {0}.</value>
+  </string>
+  <string key="HaveJoined">
+    <!-- {0} = list of people who have joined -->
+    <value>{0} nos últimos 30 segundos.</value>
+  </string>
+  <string key="AllowCult">
+    <value>Porquê-Bisomens</value>
+  </string>
+  <string key="AllowTanner">
+    <value>Bolha</value>
+  </string>
+  <string key="AllowFool">
+    <value>Abracadaniel</value>
+  </string>
+  <string key="EnableSecretLynch">
+    <value>Voto Secreto</value>
+  </string>
+  <string key="RandomMode">
+    <value>Modo Aleatório</value>
+  </string>
+  <string key="AllowExtend">
+    <value>Permite estender tempo</value>
+  </string>
+  <string key="ShowRolesDeath">
+    <value>Papéis ao morrer</value>
+  </string>
+  <string key="AllowFlee">
+    <value>Sobre Fugir</value>
+  </string>
+</strings>
