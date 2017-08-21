@@ -41,7 +41,7 @@
     <value>\n{0} para que eu possa te enviar mensagens privadas, você deve me enviar uma mensagem primeiro. Vá em {1} e clique start.</value>
   </string>
   <string key="DeadFlee">
-    <value>Você não pode fugir! VOCÊ ESTÁ MORTO(A)! Volte para sua cova.... Seu zumbi</value>
+    <value>Você não pode fugir! VOCÊ ESTÁ MORTO! Volte para sua cova.... Seu zumbi</value>
   </string>
   <string key="Flee">
     <value>{0} foi brigar com o Gato Cientista.</value>
@@ -180,7 +180,7 @@
     <value >Aproxima-se a hora da batalha. Vocês têm agora {0} segundos para fazer panquecas de toucinho, salvar princesas e montar estratégias.</value>
   </string>
   <string key="NightTime" >
-    <value >Cai a noite. Todos estão em seus reinos esperando o hora de entrar em cena. vocês têm {0} segundos para usar suas ações!</value>
+    <value >Cai a noite. Todos estão em seus reinos esperando a hora de entrar em cena. vocês têm {0} segundos para usar suas ações!</value>
   </string>
   <string key="LynchKill" >
     <value >O povo de Ooo lutou bravamente e {0} foi eliminado! {1}</value>
@@ -267,7 +267,7 @@
     <value >Você percebe que {0} não está possuído, já que vocês foram na balada do Reino Geleca.</value>
   </string>
   <string key="HarlotVisitYou" >
-    <value>Oh meus caroços! Você teve um encontro com a Princesa Caroço ontem no Reino Geleca!</value>
+    <value>Ai meus caroços! Você teve um encontro com a Princesa Caroço ontem no Reino Geleca!</value>
   </string>
   <string key="DetectiveCaught" >
     <value >Você vê {0} xeretando por aí! Ele é o Refri!</value>
@@ -279,16 +279,16 @@
     <value >Parece que {0} não gostou do encontro com a Princesa Caroço! Princesa de Fogo se descontrola e ataca {1}.</value>
   </string>
   <string key="DefaultShot" >
-    <value>De repente a temperatura aumenta no Reino do Fogo! {0} lança chamas em direção de {1}. Princesa de Fogo entrou na luta! {2}</value>
+    <value>De repente a temperatura aumenta no Reino do Fogo! {0} se enfurece e lança suas chamas em direção de {1}. Princesa de Fogo está imbatível! {2}</value>
   </string>
   <string key="WolfWins" isgif="true" >
-    <value >Lich comemora a vitória destruindo o que resta de Ooo!</value>
+    <value >Lich comemora a vitória destruindo o que resta da vida em Ooo!</value>
   </string>
   <string key="WolvesWin" isgif="true" >
     <value>Lich e os possuídos celebram a destruição!</value>
   </string>
   <string key="VillageWins" isgif="true" >
-    <value >Os aventureiros venceram! Ooo está salva!</value>
+    <value>Os aventureiros venceram! Ooo está salva!</value>
   </string>
   <string key="TannerWins" isgif="true" >
     <value >Vocês atacaram o Bolha. Ele estoura revelando sua verdadeira identidade... ele é o Ar e está em todos os lugares! Lindo não é? Mas ele ganhou sozinho :)</value>
@@ -389,7 +389,7 @@
   </string>
   <!-- These are for the player list -->
   <string key="RanAway">
-    <value>🏃</value>
+    <value>🚀</value>
   </string>
   <string key="Dead">
     <value>⚰️</value>
@@ -469,7 +469,7 @@
     <value>🏹 Você é a Lady Íris. Escolha duas pessoas que serão entrelaçadas magicamente. Se um deles morrer o outro também morrerá.</value>
   </string>
   <string key="RoleInfoDoppelganger">
-    <value>🎭 Você é a Criatura Venenosa. Veio de outra dimensão e tem habilidades metamóficas. Escolha quem você deseja copiar forma e poderes, após a morte do escolhido você tomará o seu lugar. (Para vencer o jogo você deverá assumir o papel da pessoa escolhida e vencer juntamente com seu time, caso isto não ocorra você perderá)</value>
+    <value>🎭 Você é Sigil, a Criatura Venenosa. Veio de outra dimensão e tem habilidades metamóficas. Escolha quem você deseja copiar forma e poderes, após a morte do escolhido você tomará o seu lugar. (Para vencer o jogo você deverá assumir o papel da pessoa escolhida e vencer juntamente com seu time, caso isto não ocorra você perderá)</value>
   </string>
   <string key="RoleInfoHunter">
     <value>🎯 Você é a Marceline, Rainha dos Vampiros! Caso morra, poderá usar seus poderes diabólicos para levar alguem junto. Se o Lich te visitar você não aceitaria ir para outro mundo sozinha. Mas talvez você não consiga escolher quem matar.</value>
@@ -533,19 +533,19 @@
     <value> Princesa Caroço foi ter um encontro com a Morte essa noite. {0} não voltará!</value>
   </string>
   <string key="DGToMason">
-    <value>{0} era Criatura Venenosa e agora se tornou um Guarda Banana assim como você!</value>
+    <value>{0} era Sigil e agora se tornou um Guarda Banana assim como você!</value>
   </string>
   <string key="DGTransformToMason">
     <value>{0} morreu e você agora é um Guarda Banana. Os outros Guardas Bananas (se houver) são: {1}</value>
   </string>
   <string key="DGToCult">
-    <value>{0} era Criatura Venenosa e agora se transformou em um Porquê-Bisomem!</value>
+    <value>{0} era Sigil e agora se transformou em um Porquê-Bisomem!</value>
   </string>
   <string key="DGTransformToCult">
     <value>{0} morreu e você agora é um Porquê-Bisomem! Seus novos companheiros (se houver) são: {1}</value>
   </string>
   <string key="DGToWolf">
-    <value>{0} era Criatura Venenosa e foi possuído por Lich!</value>
+    <value>{0} era Sigil e foi possuído por Lich!</value>
   </string>
   <string key="DGTransformToWolf">
     <value>{0} morreu e você se transformou no novo receptáculo do Lich!! Seus companheiros (se houver) são: {1}</value>
@@ -578,7 +578,7 @@
     <value>Morte 🔪</value>
   </string>
   <string key="Doppelgänger">
-    <value>Criatura Venenosa 🎭</value>
+    <value>Sigil 🎭</value>
   </string>
   <string key="CupidChosen">
     <value>Voce foi afetado pela magia do cristal do entrelaçamento! Você está entrelaçado por {0}! Se ele(a) morre, você morre também. No final se só os dois estiverem vivos vocês vencem sozinhos.</value>
@@ -600,7 +600,7 @@
     <value>Você já está esperando o jogo em {0}</value>
   </string>
   <string key="AddedToWaitList">
-    <value>Você está esperando para o próximo aventura em {0}. Finn e Jake te avisarão quando for a a hora!</value>
+    <value>Você está esperando para a próxima aventura em {0}. Finn e Jake te avisarão quando for a a hora!</value>
   </string>
   <string key="NotifyNewGame">
     <value>É HORA DE AVENTURA! Prepare suas espadas e vá a luta em {0}</value>
@@ -632,76 +632,73 @@
 	</string>
 <!--Novas Strings, feitas dia 07/06/2016. Traduzidas dia 09/06/2016-->
   <string key="AboutVG">
-  <value >Você é um Herói Veterano, sua força é fundamental para ajudar os heróis na batalha contra os Cavaleiros do Apocalipse, seus inimigos! Sempre que houver uma batalha você será chamado para atacar junto!</value>
+  <value >(Aldeão) O Povo Doce são os cidadãos do Reino Doce, governado pela Princesa Jujuba. Todo povo doce são doces, sobremesas, frutas etc. Muitos deles têm atributos semelhantes incluindo a maior ingenuidade.\n Fonte: https://goo.gl/mCghXX</value>
   </string>
   <string key="AboutSeer">
-    <value>Você é o Telepata, seu papel é guiar a os heróis na empreitada contra os Cavaleiros do Apocalipse.  Durante a noite, você pode escolher alguém para 'ver', e ter seu papel revelado a você. Se revele com cautela, porque os Cavaleiros estão loucos pra eliminar você!</value>
+    <value>(Vidente) O Rei Gelado (antigamente Simon Petrikov) governa o Reino Gelado. Seus poderes de gelo estão contidos em sua coroa e ele é, portanto, impotente sem ela. Sua coroa é também a causa de sua perda de sanidade, sua cor de pele incomum, seu nariz grande, olhos brancos e barba branca.\n Fonte: https://goo.gl/cD195k</value>
   </string>
   <string key="AboutWw">
-    <value>VOCÊ É UM CAVALEIRO DO APOCALIPSE!! Bom pra você! Durante a noite você pode escolher alguém para matar, junto com seu time, os Cavaleiros.</value>
+    <value>(Lobo) Os Possuídos pelo lich são receptáculos usados para que Lich realize seus planos maléficos. Você pode ser chamado apenas de Lich também.\nPara saber mais sobre Lich use /aboutAlphaWolf</value>
   </string>
   <string key="AboutHarlot">
-    <value>Safada! Você é a Viúva Negra, a aliada sexy dos heóis. Durante a noite, você poderá escolher alguém para fazer uma visitinha, e descobrir se a pessoa é ou não um cavaleiro.  Porém, se você visitar um cavaleiro, ou alguém que está sendo atacado(a) pelos cavaleiros, você irá morrer.  Se você visitar alguém e os lcavaleiros tentarem te matar na sua casa, você irá sobreviver (já que não estava lá).</value>
+    <value>(Cortesã) A Princesa Caroço é uma princesa que flutua como nuvem e é da dimensão da Terra do Caroço, lugar habitado por pessoas "Encaroçadas". Ela é como as pessoas encaroçadas em geral. Ela é metida, rude e mal educada, e usa a palavra "caroço" no lugar de palavrões e as vezes a palavra "gosma" no lugar de expressões.\n Fonte: https://goo.gl/FeSf8Q</value>
   </string>
   <string key="AboutDrunk">
-    <value>Parabéns, você é o Tony Stark o baladeiro beberrão! Você tem bafo de cachaça, mas joga com os Heróis. Se os Cavaleiros te atacarem, você irá convida-los para se juntar a sua festinha particular e eles ficarão de ressaca, e não poderão atacar ninguém na noite seguinte!</value>
+    <value>(Bêbado) Os Guardiões da Cidadela mantem a Cidadela de Cristal, a fim de manter os prisioneiros congelados por toda a eternidade. Quando mortos, eles liberam uma gosma branca com propriedades regenerativas que foi capaz de reviver o Lich em forma de bebê.\n Fonte: https://goo.gl/o91d1H</value>
   </string>
   <string key="AboutCursed">
-    <value>Você é o Motoqueiro Fantasma. Por enquanto você é um herói, mas se você por atacado pelos cavaleiros, seduzido pelo poder do Apocalipse você se tornará um cavaleiro também!.</value>
+    <value>(Amaldiçoado) O Caracol está presente em todos os episódios, frequentemente em locais que não são o foco principal da cena.\n Ele se tornou uma parte integrante da história quando libertou o Lich no episódio "Folia Mortal" e ele aparece no final de "Recuo Mortal", sendo controlado pelo Lich.\n Fonte: https://goo.gl/5KiFwG</value>
   </string>
   <string key="AboutTraitor">
-    <value>Você é o Loki Laufeyson! Por enquanto você é um herói, mas assim que todos os cavaleiros do apocalipse estiverem mortos, você se juntará a causa do Apocalipse se tornando um cavaleiro. Só Telepata poderá identificar você como um cavaleiro ou não.</value>
+    <value>(Traíra) Martin Mertens é o pai biológico de Finn, que estava preso na Cidadela de Cristal até que Lich o libertou. Ele é um indivíduo extremamente egoísta e explorador que mal reconhece a presença de seu filho, a menos que se beneficia dele. A partir do momento que ele é liberado, ele está focado apenas em salvar a si mesmo.\n Fonte: https://goo.gl/R3tGIC</value>
   </string>
   <string key="AboutGA">
-    <value>Você é o Homem-Aranha, e seu papel é proteger os heróis. Durante a noite, você pode escolher um(a) jogador(a) para proteger.  Porém, se você escolher um cavaleiro, há 50% de chance de ser morto.</value>
+    <value>(Anjo da Guarda) Finn, o Humano (ou Finn Mertens), é um dos personagens principais de Hora de Aventura. Junto a Jake, Finn vive procurando aventuras pela Terra de Ooo, salvando todas as pessoas de seres do mal.\n Fonte: https://goo.gl/U00n2b</value>
   </string>
   <string key="AboutDetective">
-    <value>Você é a Jessica Jones, e joga com os heróis. Durante o dia, você pode escolher uma pessoa para investigar e descobrir seu papel.  No entanto, ao fazer isso, você pode ser desmascarada pelos cavaleiros do apocalipse! (40% de chance)</value>
+    <value>Refri ou Capitão Refrigerante era um operador de telemarketing que estava trabalhando em um romance de mistério. Ele testemunha Finn e Jake sequestrando a Princesa Jujuba e tenta pegá-los, apenas para descobrir que era a princesa que testava os Guardas Banana. Por resolver o crime, ele é nomeado Capitão da Guarda Banana.\n Fonte: https://goo.gl/QrqeDH</value>
   </string>
   <string key="AboutGunner">
-    <value>Você é o Deadpool! Você possui 2 balas para ajudar os heróis. Durante o dia, você pode atirar em alguém. Todo mundo ouvirá os disparos e saberão que você é o mercenário tagarela.</value>
+    <value>(Atirador) Princesa de Fogo (Phoebe, como revelado em "O Resfriador") teve sua primeira aparição em  "Incêndio". Ela é filha do Rei de Fogo e passa a ser uma personagem principal a partir da 5ª temporada.\n Fonte: https://goo.gl/JaKCAf</value>
   </string>
   <string key="AboutTanner">
-    <value >Você é o Nitro, o homem explosivo!  Se você for atacado pela maioria, você irá se vingar explodindo a tudo e a todos!</value>
+    <value >(Suícida) Bolha ajuda BMO a voltar pra casa em "BMO Perdido", com a promessa de BMO que ele trará Finn e Jake para ajudá-lo a encontrar casa de Bolha. Bolha e BMO se tornam muito amigos porém após chegarem lá Jake aparece e estoura Bolha, pensando que era uma bolha comum. BMO fica triste e chora, mas a voz de Bolha o diz que agora ele é Ar, e que ele pode estar em todo lugar que BMO estiver o tempo todo, e eles podem ficar juntos pra sempre, para alegria de BMO.\n Fonte: https://goo.gl/ZNZdeC</value>
   </string>
   <string key="AboutFool">
-    <value>he fool is told they are the seer.... when they choose to see someone's role at night, they are told a random role.</value>
+    <value>(Trouxa) Abracadaniel é um mago amigo de Finn, Jake e Rei Gelado. Sempre que ele diz seu próprio nome, um arco-íris sai do graveto que ele sempre carrega. Ele também tem o poder de fazer crescer flores.\n Fonte: https://goo.gl/fysk3d</value>
   </string>
   <string key="AboutCult">
-    <value>Você é um agente da Hydra.  Durante a noite, você poderá escolher alguém para recrutar à Hydra. Se todos os jogadores restantes ao final do jogo forem da Hydra, ela vence!</value>
+    <value>(Seita) Os Porquê-Bisomens são personagens que aparecem no episódio "Donny ". Eles são monstros que lembram lobisomens, mas tem uma natureza mais curiosa e às vezes	dão uma pausa para dar palestras. Um deles explica que sua espécie é possuída pelo espírito do questionamento e sede de sangue.\n Fonte: https://goo.gl/uHcVqr</value>
   </string>
   <string key="AboutCH">
-    <value>A Hydra vaga pela cidade recrutando novos membros para sua causa maligna, e você o Capitão América deve proteger a cidade!  Durante a noite você poderá escolher alguém para interrogar.  Se ele(a) for da Hydra, ele(a) morre.  Caso a Hydra tente te recrutar, o membro mais recente morre.</value>
+    <value>(Inquisidor) Donny é um Ogro da Grama que apareceu em "Donny". Ele originalmente tinha uma personalidade destrutiva, como ele foi visto aterrorizando Pessoas Casa no início do episódio. Jake ensinou Donny se tornar gentil e civilizado. No entanto, Finn descobre que o gás Ofensivogênio que Donny produz quando este está sendo um idiota é a única coisa que protege as pessoas Casa de serem comidos pelos Porquê-Bisomens.\n Fonte: https://goo.gl/e9XQ6k</value>
   </string>
   <string key="AboutWC">
-    <value>Você é o Bruce Banner! Escolha alguém para ser o seu 'Exemplo'. Se ele morrer, você ficará revoltado, e será facilmente controlado pelos poderes do Apocalipse se tornando um de seus Cavaleiros.</value>
+    <value>(Criança Rebelde) Gunter era um monstro que dominava planetas chamado Orgalorg, mas o Rei de Marte mandou Grob Gob Glob Grod o exilar num planeta que naquele momento era desabitado, chamado Terra. A gravidade do planeta o fez ficar nessa forma de pinguim e esquecer tudo.\n Fonte: https://goo.gl/gS9q4i</value>
   </string>
   <string key="AboutAppS">
-    <value>Você é a Jean Grey, e joga com os heróis.  Caso o verdadeiro Telepata morra, você tomará sua posição de diretor do Instituto Xavier.</value>
+    <value>(Aprendiz de Vidente) Simon Petrikov, antes de ser o Rei Gelado era um humano de 40 anos, historiador antes da Guerra dos Cogumelos. Mas isso mudou quando ele comprou uma coroa de um pescador, ele pôs em sua cabeça e começou a ter visões. A coroa começou a fazer alterações físicas em seu corpo, sua pele começou a ficar azul, seu nariz começou a crescer, e sua barba também, sua temperatura corporal foi abaixando. Ele estava perdendo sua sanidade, e começou a ouvir vozes, lhe prometendo que a força do gelo e da neve iriam o salvar.\n Fonte: https://goo.gl/cD195k</value>
   </string>
   <string key="AboutBH">
-    <value>Você é o Vigia! Você saberá quem é o verdadeiro telepata(e não a Vampira). Use isso para ajudar seu time!</value>
+    <value>(Observador) A Coruja Cósmica é responsável pelos sonhos de morte e sonhos proféticos de todos. Ela tem o poder de apenas por ter presença em um sonho alheio fazer com que ele se torne realidade futuramente.\n Veja mais: https://goo.gl/tShKde</value>
   </string>
   <string key="AboutMason">
-    <value>Você é um agente da S.H.I.E.L.D, e participa de uma sociedade secreta que faz parte. Se houver outros agentes, você saberá quem são. Caso contrário, você será um Herói Veterano.</value>
+    <value>(Maçom) A Guarda Banana é um grupo de pessoas doces que mantém a ordem e segurança no Reino Doce\n Fonte: https://goo.gl/nuoJKF</value>
   </string>
   <string key="AboutDG">
-    <value>
-     Você é a Vampira! Com sua Habilidade de absorção de memórias vocÊ pode copiar os poderes de qualquer um dos johadores apenas ao tocá-los. Escolha de qual personagem você deseja copiar os poderes. Você só poderá usá-los após a morte do personagem escolhido.</value>
+    <value>(Doppelgänger) Sigil, conhecido como Criatura Venenosa, é uma criatura vista em "Joshua e Margaret". Ele pode se metamorfosear; e aparentemente veio de um mundo alienígena ou de alguma dimensão. Ele infectou Joshua com seu veneno, causando uma espécie de ebulição em sua cabeça fazendo com que Jake nascesse.\n Fonte: https://goo.gl/tiyptS</value>
   </string>
   <string key="AboutCupid">
-    <value>
-      Você é a Encantor, A Encantadora de mentes! Você pode escolher dois jogadores que serão enfeitiçados para toda eternidade com a ilusão de que são dois amantes. Se um deles morrer, o outro morrerá de tristeza. Depois de escolher os enfeitiçados, você pode voltar ao seu papel como Herói.
-    </value>
+    <value>(Cupido) Lady Íris é uma iriscórnio que fala coreano. Assim como seu povo, ela tem poderes de mutação de cor, habilidade de voar, atravessar paredes e transportar-se. Lady Íris é a esposa de Jake. https://goo.gl/cmG7Ge</value>
   </string>
   <string key="AboutHunter">
-    <value>🎯 Você é a Marceline, Rainha dos Vampiros! Caso morra, poderá usar seus poderes diabólicos para levar alguem junto. Se o Lich te visitar você não aceitaria ir para outro mundo sozinha. Mas talvez você não consiga escolher quem matar.</value>
+    <value>(Caçador) Marceline Abadeer é a Rainha dos Vampiros e uma das personagens principais de Hora de Aventura. Ela tem mais de 1.000 anos de idade e aparência e personalidade de 18 a 20 anos. Ela tem poder de sugar almas dado por Hunson Abadeer confirmado por ela em Vampiros por aí, como todo vampiro ela também pode sugar sangue de animais ou pessoas, mas prefere sugar a cor vermelha.\n Fonte: https://goo.gl/QzaMGC</value>
   </string>
   <string key="AboutSK">
-    <value>🔪 Você é Morte. Senhor do mundo dos mortos. Não importa de que lado os outros sejam, você levará todos eles para a Terra dos Mortos...</value>
+    <value>(Serial Killer) Morte é o governante da Terra dos Mortos, como visto em "Morte em Botão", Morte é a representação do anjo da morte no Hora de Aventura e controla o tempo em que a pessoa desejada por ele irá morrer.\n Fonte: https://goo.gl/Zu45Jo</value>
   </string>
   <string key="AboutPara">
-    <value>Para é o desenvolvedor do primeiro bot de Werewolf. Este porém foi desenvolvido por @Fernando0 com uma pequena ajuda da equipe Zion</value>
+    <value>Para é o desenvolvedor do primeiro bot de Werewolf. Este (@WerewolfZbot) porém foi desenvolvido por @Fernando0 com uma pequena ajuda da equipe Zion</value>
   </string>
   <string key="EndTime">
     <value>⏳ Adventure Time: {0}</value>
@@ -993,25 +990,25 @@
     <value>O sol se põe, Vozes ecoam em sua cabeça... Agora você está possuído pelo Lich!</value>
   </string>
   <string key="AboutMayor">
-    <value>Como Jake, você é um aventureiro comum até se revelar. Revelado o seu ataque é duas vezes mais efetivo contra alguém! Use o seu poder sabiamente.</value>
+    <value>(Prefeito) Jake, o Cão, é um cachorro mágico e Finn é seu companheiro constante, melhor amigo e irmão adotivo. Jake tem Poderes de Elasticidade, que lhe permitem esticar e manipular seu corpo, vindo a calhar em inúmeras ocasiões ao longo de sua aventuras com Finn.\n Fonte: https://goo.gl/sjaoWA</value>
   </string>
   <string key="AboutPrince">
-    <value>👑 Você é Princesa Jujuba! Se tentarem atacá-la, será revelada a sua autoridade e você sobreviverá. Mas ainda poderá ser morta durante a noite ou pela Princesa de Fogo.</value>
+    <value>(Príncipe) Princesa Bonnibel Jujuba é a governante do Reino Doce. Tem um forte senso de moralidade e participa em políticas fora do Reino Doce. Ela é muito nobre e inteligente, talvez a pessoa mais inteligente na Terra de Ooo.\n Fonte: https://goo.gl/oap7a9</value>
   </string>
   <string key="AboutSorcerer">
-    <value>🔮 Você é Mordomo Menta. À noite você usará seu conhecimento em magia negra para encontrar os possuídos pelo Lich ou ver onde o Rei Gelado está tendo os sonhos com a Coruja Cósmica. Você ganha somente se o Lich ganhar. </value>
+    <value>(Feiticeira) Mordomo Menta é um habitante do Reino Doce que é versado em magia negra e mordomo fiel à Princesa Jujuba. Ele parece ter um passado obscuro e tem um laço estreito com a Morte, revelado em "Morte em Botão".\n Fonte: https://goo.gl/YxVhmG</value>
   </string>
   <string key="AboutClumsy">
-	<value>🤕 QUEM QUER JOGAR... VIDEO GAMES?!! Você é o BMO! Tem um coração enorme mas também é desastrado e tem 50% de chance de atacar a pessoa errada</value>
+	<value>(Desajeitado) BMO (apelido para Beemo) é o videogame de Finn e Jake, tomada portátil elétrica, leitor de música, companheiro de quarto, câmera, despertador, lanterna, luz estroboscópica, skatista, amigo, jogador de futebol, editor de vídeo e player de vídeo. BMO é caracterizado como um amigo leal, confiante, companheiro e útil, além de que é protetor de Finn e Jake. A sigla de seu nome significa "Be More", ou seja, "Ser Mais".\n Fonte: https://goo.gl/BM8VAJ</value>
   </string>
   <string key="AboutBlacksmith">
-    <value>⚒ Você é o Guardião Chiclete, protetor do Reino Doce. Você poderá guardar o Reino Doce dos ataques de Lich por uma noite. Feito isso todos irão ver que você é o Guardião Chiclete. </value>
+    <value>(Ferreiro) Os Guardiões de Chiclete são duas estátuas gigantes que ficam nas extremidades do Reino Doce. Quando o reino é atacado, eles são ativados. Eles possuem uma ampla gama de habilidades ofensivas incluindo lasers, soltar fogo pela boca, lasers mortais que causam grandes explosões, combate corpo a corpo, capacidade de gás respiratório do sono e são capazes de detectar a presença do mal no Reino Doce, mesmo algo tão pequeno como o Chapéu de Finn. Eles também são bastante inteligentes com matemática avançada.\n Fonte: https://goo.gl/avvQjf</value>
       </string>
   <string key="AboutAlphaWolf">
-    <value>⚡️ Você é o Lich! A encarnação de tudo que há de mal e deseja destruir toda forma de vida! a sua vítima tem 20% de chance de ser possuída por você. </value>
+    <value>(Lobo Alfa) Lich é um morto-vivo terrivelmente cruel, demonstrando ser inteligente, astuto e ter o poder de possuir pessoas e de hipnotiza-las. O episódio "O Lich" mostra que seu objetivo é desejar a extinção de toda a vida e em "Finn, o Humano" sugere que ele era um humano afetado pela "Radiação Mortal" liberada por uma bomba restante da Guerra dos Cogumelos. O Lich ficou muito tempo congelado em uma caverna secreta dentro da árvore do Reino Doce, após ter perdido uma batalha para o lendário Billy, o guerreiro.\n Fonte: https://goo.gl/uVF86W</value>
   </string>
   <string key="AboutWolfCub">
-    <value>🐶 Você é Kee-Oth, o demônio! Você está ajudando Lich em seus planos de destruição. Se você for morto Lich usará seu sangue amaldiçoado para se fortalecer e atacar duas vezes na noite subsequente. </value>
+    <value>(Filhote de Lobo) Kee-Oth é um personagem que aparece em "A Masmorra do Papai". A Espada do Demônio é feita de seu sangue. Ele pode ser facilmente derrotado por um feitiço conhecido por Joshua, "Kee Oth Rama Panqueca".\n Fonte: https://goo.gl/re2SvY</value>
   </string>
 
  <!-- new strings 06 nov-->
@@ -1191,13 +1188,13 @@
 	
 	  <!--New Commands by GreyWolf since March 2017-->
   <string key="JoinButton">
-    <value>Entrar</value>
+    <value>⚔️ Entrar</value>
   </string>
   <string key="NotMember">
     <value>Você não pode entrar nessa batalha porque você não é membro do {0}.</value>
   </string>
   <string key="FleeButton">
-    <value>Sair</value>
+    <value>🚀 Sair</value>
   </string>
   <string key="JoinByButton">
     <value>Por favor, não use o comando join. Para entrar em uma batalha, use o botão abaixo.</value>
@@ -1222,7 +1219,7 @@
   </string>
   <string key="HaveJoined">
     <!-- {0} = list of people who have joined -->
-    <value>{0} nos últimos 30 segundos.</value>
+    <value>{0} entrou nos últimos 30 segundos.</value>
   </string>
   <string key="AllowCult">
     <value>Porquê-Bisomens</value>
